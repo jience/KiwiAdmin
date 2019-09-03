@@ -34,6 +34,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'KiwiAdmin.apps.home',
+    'KiwiAdmin.apps.customer',
+    'KiwiAdmin.apps.order',
+    'KiwiAdmin.apps.product',
 ]
 
 MIDDLEWARE = [

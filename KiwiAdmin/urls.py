@@ -18,5 +18,8 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('kiwi/', include('KiwiAdmin.apps.home.urls')),
+    path('kiwi/home/', include('KiwiAdmin.apps.home.urls')),
+    path('kiwi/customer/', include('KiwiAdmin.apps.customer.urls')),
+    path('kiwi/order/', include('KiwiAdmin.apps.order.urls')),
+    path('kiwi/product/', include('KiwiAdmin.apps.product.urls')),
 ]
