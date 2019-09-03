@@ -33,7 +33,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'KiwiAdmin.apps.dashboard',
+    'KiwiAdmin.apps.home',
 ]
 
 MIDDLEWARE = [
