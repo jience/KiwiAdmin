@@ -8,13 +8,13 @@ SECRET_KEY = 'rikvaw31h3_41l022!!b!zby4ny_e&bkr2*2rg@3qm4lxeup4&'
 
 DEBUG = True
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': 'Kiwi',
-#         'USER': 'root',
-#         'PASSWORD': 'root123456',
-#         'HOST': 'localhost',
-#         'PORT': 3306,
-#     }
-# }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'KiwiAdmin',
+        'USER': 'root',
+        'PASSWORD': 'root123456',
+        'HOST': 'localhost',
+        'PORT': 3306,
+    }
+}

@@ -33,6 +33,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    'KiwiAdmin',
     'KiwiAdmin.apps.home',
     'KiwiAdmin.apps.customer',
     'KiwiAdmin.apps.order',
