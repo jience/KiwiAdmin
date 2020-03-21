@@ -4,10 +4,17 @@ from django.urls import reverse
 from django.views.decorators.http import require_POST
 
 from .forms import ProductForm
+from .models import Product
 
 
 def product_list(request):
-    return render(request, 'product/product_list.html')
+    products = Product.objects.all()
+
+    context = {
+        'products': products,
+    }
+
+    return render(request, 'product/product_list.html', context=context)
 
 
 @require_POST
